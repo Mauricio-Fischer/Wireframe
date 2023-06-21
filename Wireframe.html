@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Recursos</a></li>
+        <li><a href="#">Preços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+        <a href="#" class="btn-login">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Sistema de Atendimento ao Cliente</h1>
+      <p>Uma solução completa para gerenciar o suporte ao cliente.</p>
+      <a href="#" class="btn">Experimente grátis</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <img src="Screenshot_3.png" alt="Recursos">
+      <h2>Recursos Poderosos</h2>
+      <p>Desfrute de uma ampla gama de recursos para melhorar o suporte ao cliente e a satisfação geral.</p>
+    </div>
+    <div class="feature">
+      <img src="Screenshot_5.png" alt="Fácil de Usar">
+      <h2>Fácil de Usar</h2>
+      <p>Nossa interface intuitiva e amigável permite que qualquer pessoa utilize o sistema sem dificuldades.</p>
+    </div>
+    <div class="feature">
+      <img src="Screenshot_4.png" alt="Suporte Personalizado">
+      <h2>Suporte Personalizado</h2>
+      <p>Nossa equipe de suporte está pronta para ajudar você a aproveitar ao máximo o (Nome da empresa).</p>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <h2>Planos e Preços</h2>
+    <div class="pricing-options">
+      <div class="option">
+        <h3>Silver</h3>
+        <p class="price">Free</p>
+        <ul>
+          <li>1 Atendente</li>
+          <li>5 Usuarios</li>
+          <li>1 Departamento</li>
+          <li>100 Chamados por mês</li>
+          <li>Exportação de dados</li>
+          <li>Controle de solicitações e incidentes</li>
+        </ul>
+        <a href="#" class="btn">Assinar</a>
+      </div>
+      <div class="option">
+        <h3>Platinum</h3>
+        <p class="price">R$ 24.99/mês</p>
+        <ul>
+          <li>5 Atendente</li>
+          <li>100 Usuarios</li>
+          <li>30 Departamentos</li>
+          <li>Chamados ilimitados</li>
+          <li>Exportação de dados</li>
+          <li>Controle de solicitações e incidentes</li>
+          <li>Alertas (Email, Pushover, Telegram, etc)</li>
+          <li>Base de conhecimento</li>
+          <li>Campos personalizados</li>
+          <li>Controle de horas trabalhadas</li>
+          <li>Controle de SLA</li>
+          <li>Dashboard</li>
+          <li>Multi-Idioma</li>
+          <li>Avaliação do Atendimento</li>
+          <li>Relatórios</li>
+        </ul>
+        <a href="#" class="btn">Assinar</a>
+      </div>
+      <div class="option">
+        <h3>Diamond</h3>
+        <p class="price">R$ 38,99/mês</p>
+        <ul>
+          <li>100 Atendente</li>
+          <li>500 Usuarios</li>
+          <li>200 Departamentos</li>
+          <li>Chamados ilimitados</li>
+          <li>Exportação de dados</li>
+          <li>Controle de solicitações e incidentes</li>
+          <li>Alertas (Email, Pushover, Telegram, etc)</li>
+          <li>Base de conhecimento</li>
+          <li>Campos personalizados</li>
+          <li>Controle de horas trabalhadas</li>
+          <li>Controle de SLA</li>
+          <li>Dashboard</li>
+          <li>Multi-Idioma</li>
+          <li>Avaliação do Atendimento</li>
+          <li>Relatórios</li>
+          <li>Abertura de solicitações por email</li>
+          <li>API</li>
+          <li>Integração com Active Directory, Open LDAP, Pop e lmap</li>
+        </ul>
+        <a href="#" class="btn">Assinar</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Entre em Contato</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Todos os direitos reservados &copy; 2023 (Nome da empresa)</p>
+  </footer>
+</body>
+
+<style>
+    * {
+      margin: 0px;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('fundo3.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    header {
+      background-color: #0d233e;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .nav-links {
+      list-style-type: none;
+      display: flex;
+    }
+
+    .nav-links li {
+      margin-right: 20px;
+      text-align: center;
+    }
+
+    .nav-links li:last-child {
+      margin-right: 0;
+    }
+
+    .nav-links li a {
+      background-color: #0d233e;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .nav-links li a:hover {
+      background-color: #123456;
+      color: #fff;
+    }
+
+    .btn-login {
+      background-color: #0d233e;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-login:hover {
+      background-color: #174783;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 0;
+
+
+    }
+
+    .hero-content h1 {
+      font-size: 40px;
+      border: 10px;
+      margin-bottom: 20px;
+      color: white;
+      border-color: blue;
+      border: 5px blue solid;
+      background-color: blue;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 40px;
+      color: darkblue;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #0d233e;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #174783;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 0;
+    }
+
+    .feature {
+      text-align: center;
+      margin: 0 20px;
+    }
+
+    .feature img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+
+    .feature h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 16px;
+    }
+
+    .pricing {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #f5f5f5;
+    }
+
+    .pricing h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .pricing-options {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .option {
+      color: white;
+      text-align: center;
+      margin: 0 20px;
+      padding: 20px;
+      background-color: rgba(46, 44, 44, 0.801);
+      border-radius: 5px;
+    }
+
+    .option h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .option p.price {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .option ul {
+      list-style-type: none;
+      margin-bottom: 20px;
+    }
+
+    .option ul li {
+      margin-bottom: 10px;
+    }
+    .option h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    /* Adicionando as cores aos títulos das opções de preços */
+    .option h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .option:nth-of-type(1) h3 {
+      color: silver;
+    }
+
+    .option:nth-of-type(2) h3 {
+      color: lightgreen; 
+    }
+
+    .option:nth-of-type(3) h3 {
+      color: lightskyblue; 
+    }
+    .contact {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #f5f5f5;
+    }
+
+    .contact h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button[type="submit"] {
+      display: inline-block;
+      background-color: #0d233e;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #174783;
+    }
+
+    footer {
+      background-color: #0d233e;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+</style>
+</html>
