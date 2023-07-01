@@ -4,6 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nome da empresa</title>
 <body>
   <header>
     <nav>
@@ -33,7 +34,7 @@
       <p>Desfrute de uma ampla gama de recursos para melhorar o suporte ao cliente e a satisfação geral.</p>
     </div>
     <div class="feature">
-      <img src="Screenshot_5.png" alt="Fácil de Usar">
+      <img src="Screenshot_9.png" alt="Fácil de Usar">
       <h2>Fácil de Usar</h2>
       <p>Nossa interface intuitiva e amigável permite que qualquer pessoa utilize o sistema sem dificuldades.</p>
     </div>
@@ -389,6 +390,86 @@
 
     footer p {
       margin: 0;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .nav-links {
+        display: none;
+      }
+
+      .btn-login {
+        display: none;
+      }
+
+      .nav {
+        flex-direction: column;
+      }
+
+      .hero-content h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+      }
+
+      .hero p {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+
+      .btn {
+        font-size: 14px;
+        padding: 8px 15px;
+      }
+
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .feature {
+        margin: 20px 0;
+      }
+
+      .feature img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+      }
+
+      .feature h2 {
+        font-size: 20px;
+        margin-bottom: 8px;
+      }
+
+      .feature p {
+        font-size: 14px;
+      }
+
+      .pricing-options {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .option {
+        margin: 20px 0;
+      }
+
+      .option h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+      }
+
+      .option p.price {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      .option ul li {
+        margin-bottom: 8px;
+      }
+
+      .contact form {
+        max-width: 100%;
+      }
     }
 </style>
 </html>
